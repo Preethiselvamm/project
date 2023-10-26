@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  
+<script src =  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>    
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark">
+        <div class="row py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center text-white">
+                   
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <h3 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>Learnopolis</h3>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-right px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mx-auto py-0">
+                    <a href="home.html" class="nav-item nav-link inactive"><i style="font-size:24px" class="fa">&#xf015;</i>Home</a>
+                    <a href="course.html" class="nav-item nav-link active"><i style='font-size:24px' class='fas'>&#xf5fc;</i>Courses <span class="badge bg-secondary">CSS</span></a>
+                    
+                   </div>
+                      <a href="index.html" class="nav-item nav-link inactive" style="color:red;">LOGOUT</a>
+
+               </div>
+        </nav>
+    </div>
+</div>
+    <!-- Navbar End -->
+ <!---progress bar starts-->
+
+
+<div class="container py-4">
+   <div class="py-4">
+      <div class="position-relative mb-4"
+           style="height:2rem;">
+         <div class="w-100 position-absolute top-50 start-50 translate-middle">
+            <div class="progress"
+                 style="height:.25rem;">
+               <div class="progress-bar bg-primary"
+                    id="progress-tab"
+                    role="progressbar"
+                    style="width:25%;"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"></div>
+            </div>
+            <ul class="nav nav-tabs border-0 w-100 hstack justify-content-between position-absolute top-50 start-50 translate-middle"
+                id="skk-tabs">
+               <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-primary rounded-pill"
+                          style="width:4rem;height:3rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab1"
+                          data-skk-value="1">Basic</button>
+               </li>
+               <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-primary rounded-pill active"
+                          style="width:5rem;height:3rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab2"
+                          data-skk-value="2">StyleSheet</button>
+               </li>
+               <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-secondary rounded-pill"
+                          style="width:4rem;height:3rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab3"
+                          data-skk-value="3">Display</button>
+               </li>
+               
+                 
+            </ul>
+         </div>
+      </div>
+      <div class="tab-content p-4">
+         <div class="tab-pane animate__animated animate__flipInX active" id="tab1">
+
+               <h4 class="">What is css?</h4>
+               <p class="">CSS is the language we use to style a Web page.
+    <li><ol>CSS stands for Cascading Style Sheets</ol></li>
+    <li><ol>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</ol></li>
+    <li><ol>CSS saves a lot of work. It can control the layout of multiple web pages all at once</ol></li>
+    <li><ol>External stylesheets are stored in CSS files</ol></li>
+    </p>
+               <p><h4><u>SYNTAX</u></h4><p> {<br>
+  color: red;<br>
+  text-align: center;<br>
+}<br></p>
+
+   <span class="badge bg-primary">p</span>is a selector in CSS (it points to the HTML element you want to style)<br>
+    <span class="badge bg-primary">color</span>is a property, and red is the property value<br>
+   <span class="badge bg-primary">text-align</span>  is a property, and center is the property value<br>
+
+</div>
+        
+         <div class="tab-pane animate__animated animate__flipInX " id="tab2">
+               <h4 class=""><u><h4>Style sheet</u></h4>
+               <p class=""><h5>When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.</h5></p><br>
+               <p><h4>Three Ways to Insert CSS</h4>
+   <li><ol> External CSS</ol></li>
+    <li><ol>Internal CSS</ol></li>
+   <li><ol> Inline CSS</ol></li></p>
+
+         </div>
+         <div class="tab-pane animate__animated animate__flipInX" id="tab3">
+               <h4 class=""><u>DISPLAY PROPERTY</h4></u>
+               <p class=""><li><ol>The display property specifies if/how an element is displayed.<br></ol></li>
+
+<li><ol>Every HTML element has a default display value depending on what type of element it is.<br></ol></li> 
+<li><ol>The default display value for most elements is<span class="badge bg-secondary">block</span> OR <span class="badge bg-secondary">inline</span></ol></li> </p>
+<u><h4>Block-level Elements</h4></u>
+Examples of block-level elements:<br><br>
+
+   1.< div > <br>
+   2.< h1> - < h6><br>
+   3. < p><br>
+   4.< form><br>
+   5.< header><br>
+   6. < footer><br>
+   7.< section><br>
+   <u><h4>Inline Elements</h4></u>
+Examples of Inline elements:<br><br>
+
+    1.< span><br>
+    2.< a><br>
+    3.< img><br>
+
+
+
+         </div>
+               
+   </div>
+</div>
+
+<script>
+const tabContainer = document.querySelector("#skk-tabs");
+const tabEl = tabContainer.querySelectorAll("[data-bs-toggle='tab']");
+const progressTab = document.querySelector("#progress-tab");
+
+function tabEventShow(event) {
+   const currentItem = this.parentNode;
+   const list = Array.from(tabContainer.children);
+   const position = list.indexOf(currentItem);
+   const length = list.length - 1;
+   let progressWidth = 0;
+
+   progressWidth = Number.isInteger(position) ? position : 0;
+   progressWidth = (progressWidth > 0 && length > 0) ? (progressWidth / length * 100) : 0;
+
+   progressTab.style.width = `${progressWidth}%`;
+
+   tabEl.forEach((tab) => {
+      if (list.indexOf(tab.parentNode) <= position) {
+         tab.classList.add("btn-primary");
+         tab.classList.remove("btn-secondary");
+      } else {
+         tab.classList.add("btn-secondary");
+         tab.classList.remove("btn-primary");
+      }
+   });
+}
+
+tabEl.forEach((tab) => {
+   tab.addEventListener("show.bs.tab", tabEventShow);
+});
+
+
+
+
+</script>
+
+
+
+    </body>
+
+   
